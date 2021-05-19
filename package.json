@@ -1,0 +1,23 @@
+{
+  "name": "puptter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spider.js",
+  "scripts": {
+    "start": "node ./index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.9",
+    "jquery": "^3.6.0",
+    "mysql2": "^2.2.5",
+    "puppeteer": "^9.1.1",
+    "sequelize": "6.5.0",
+    "tedious": "^11.0.8"
+  }
+}
